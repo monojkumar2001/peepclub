@@ -16,8 +16,6 @@
     width: 100%;
 }
 .mint-nft-item{
-    /* display: grid;
-    grid-template-columns: 1fr 1fr;  */
     gap: 40px;
     padding: 50px 80px;
 }
@@ -71,6 +69,7 @@
     align-items: center;
     justify-content: center;
     font-size: 25px;
+    color: var(--white-color);
     padding: 20px 0;
 }
 .mini-nft-cont{
@@ -126,3 +125,98 @@
     font-weight: 600;
     border-radius: 50px;
 }
+.card-details-list .card-list-item label{
+    font-size: 18px;
+    color: var(--white-color);
+  }
+
+
+  @media only screen and (max-width:1400px) {
+    .mint-wrapper{
+        width: 100%;
+    }
+  }
+  @media only screen and (max-width:992px) {
+    .mint-wrapper{
+        width: 100%;
+    }
+    .mint-price-item {
+        grid-template-columns: 1fr;
+        border-bottom: 1px solid var(--black-color);
+        border-top: none;
+    }
+    .mint-count {
+        margin-left: 0;
+        text-align: center;
+        border-top: 1px solid var(--black-color);
+        padding:20px 0;
+    }
+    .mini-nft-cont {
+        padding: 10px 0;
+        border-top: 1px solid var(--black-color);
+
+    }
+    .mint-value p{
+        height: 100%;
+        padding: 0;
+    }
+    .mint-total-dis h3 {
+        font-size: 29px;
+        line-height: 51px;
+    }
+  }
+  @media only screen and (max-width:768px) {
+    .mint {
+        padding: 150px 0 100px 0;
+    }
+    .mint-nft-item {
+        padding: 50px 50px;
+    }
+    .mint-total-item {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        padding: 0px 30px 30px 30px;
+        gap: 20px;
+        margin-top: 50px;
+    }
+    .mint-total-dis h3 {
+text-align: center;
+    }
+  }
+  @media only screen and (max-width:500px) {
+    .mint {
+        padding: 150px 0 100px 0;
+    }
+    .mint-nft-item {
+        padding: 20px 20px;
+    }
+    .nft-content h4 {
+        font-size: 25px;
+        line-height: 35px;
+        margin-bottom: 20px;
+        /* text-align: center; */
+    }
+    .mint-total-item {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        padding: 0px 30px 30px 30px;
+        gap: 20px;
+        margin-top: 50px;
+    }
+    .mint-total-dis h3 {
+text-align: center;
+    }
+    .mini-nft-cont {
+        gap: 20px;
+    }
+    .mint-value p {
+        font-size: 22;
+    }
+    .mint-count p {
+        font-size: 22px;
+    }
+  }

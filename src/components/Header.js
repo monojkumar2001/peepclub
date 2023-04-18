@@ -18,19 +18,15 @@ function Header() {
       }
     });
   }, [navActive]);
-  const [dropdownActive, setDropdownActive] = useState();
 
-  // const _toggleDropdown = () => {
-  //   setDropdownActive(!dropdownActive);
-  // };
   return (
     // <!-- =====================Navigation=========== -->
     <header className="header">
         <nav className="navigation">
           <div className="logo logo-nav">
-            <a href="" className="logo-link">
-              <img src="/images/logo.png" alt="" />
-            </a>
+            <Link to='/' className="logo-link">
+            <img src="/images/logo.png" alt="" />
+            </Link>
           </div>
 
           <div className={`menu ${sidebarActive ? "active" : ""}`}>
@@ -46,14 +42,14 @@ function Header() {
                 </HashLink>
               </li>
               <li className="nav-list" >
-                <HashLink to="/">
+                <HashLink to="/faq">
                   <a href="" className="nav-link" onClick={_toggleSidebar}>
                    FAQ
                   </a>
                 </HashLink>
               </li>
        <li>
-       <Link to='/wallet' onClick={_toggleSidebar}>
+       <Link to='/' onClick={_toggleSidebar}>
               <a href="" className="custom-btn connect-wallet-btn">
                   <span>Connect Wallet</span>
                   <img src="./images/arrow-right.svg" alt="" />
@@ -63,16 +59,6 @@ function Header() {
             </ul>
          
           </div>
-  
-          {/* <div className="wallet-btn m-none">
-           <Link to='/wallet' onClick={_toggleSidebar}>
-           <a href="" className="custom-btn-alt">
-              <span>
-                <i class="icofont-wallet"></i> Connect Wallet
-              </span>
-            </a>
-           </Link>
-          </div> */}
           <div className="show-nav" onClick={_toggleSidebar}>
             <img src="./images/menu.svg" alt="" />
           </div>

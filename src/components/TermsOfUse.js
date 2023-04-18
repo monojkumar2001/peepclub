@@ -1,14 +1,25 @@
 import React from 'react'
 // import { Link } from "react-router-dom";
+import { useState } from "react";
 function TermsOfUse() {
+  const [tableActive, setTableActive]=useState(false);
+  const _toggleTable=()=>{
+    setTableActive(!tableActive)
+  }
   return (
     <div className="terms">
       <div className="container">
         <div className="terms-wrapper">
-          <div className="terms-sidebar">
+          <div className={`terms-sidebar ${tableActive ? 'active':"" } `}>
             <h4>Peep our Terms of Use <span><img src="./images/hand-2.svg" alt="" /></span></h4>
             <div className="terms-sidebar-items">
               <p>LAST UPDATED – April 8, 2023</p>
+            </div>
+            <div className="table-content"  onClick={_toggleTable}>
+             <div className="table-con">
+             <p>Table of Contents</p>
+              <img src="./images/arrow-menu.svg" alt="" />
+             </div>
             </div>
             <div className="team-item-lists">
               <a href="/">OUR SERVICES</a>

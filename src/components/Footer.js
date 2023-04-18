@@ -13,7 +13,9 @@ function Footer() {
                     <p>© 2023 The Peep Club all rights reserved.</p>
                 </div>
                 <div className="footer-item-2 footer-item">
-                <a href="/">Terms of Use</a>
+                <Link to='/terms'>
+                Terms of Use
+                </Link>
                 <a href="/">Privacy Policy</a>
                 </div>
                 </div>                  

@@ -42,6 +42,12 @@
         padding: 20px 0;
         justify-content: center;
     }
+    /* terms */
+    .terms-wrapper {
+        display: grid;
+        grid-template-columns: 100%;
+        border: 1px solid var(--black-color);
+    }
 }
 @media only screen and (max-width:768px) {
     .intro {

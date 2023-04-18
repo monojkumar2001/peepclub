@@ -44,15 +44,15 @@ const Mint = () => {
 <div className="nft-content">
         <h4>THIS IS A CARD TITLE PLACE- HOLDER THAT SPANS 2 LINES.</h4>
                       <div className="card-details-list">
-                        <div className="card-list-item">
+                        <div className="card-list-item card-nft-details ">
                           <input id="list-1" type="radio" />
                           <label for="list">Lorem ipsum dolor incididunt ut labore.</label>
                         </div>
-                        <div className="card-list-item">
+                        <div className="card-list-item card-nft-details">
                           <input id="list-2" type="radio" />
                           <label for="list-2">Lorem ipsum dolor incididunt ut labore.</label>
                         </div>
-                        <div className="card-list-item">
+                        <div className="card-list-item card-nft-details">
                           <input id="list-3" type="radio" />
                           <label for="list-3">Lorem ipsum dolor incididunt ut labore.</label>
                         </div>

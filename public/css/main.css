@@ -147,6 +147,7 @@ margin: auto;
   padding:20px;
   width: 100%;
   text-align: center;
+
 }
 .card-item.active .card-wrapper{
   display: none;
@@ -174,9 +175,8 @@ gap: 10px;
   width: 20px;
   height: 20px;
 }
-.card-details-list .card-list-item label{
-  font-size: 18px;
-  color: var(--white-color);
+.card-nft-details label{
+  color: var(--black-color) !important;
 }
 
 /* ============================ Terms Of Use ================ */
@@ -231,11 +231,75 @@ gap: 10px;
   padding: 20px 30px;
   height: 800px;
 }
-
+.table-content{
+  display: none;
+}
+.table-con{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 30px;
+}
+.table-con p{
+  font-size: 20px;
+  font-weight: 600;
+}
+@media screen and (max-width: 992px) {
+  /* .team-item-lists{
+    display: none;
+    top: 0;
+    right: -110%;
+    bottom: 0;
+    min-height: 100vh;
+    background: #ffffffd9;
+    width: 392px;
+    z-index: 99;
+    padding: 15px;
+    transition: 0.3s;
+    backdrop-filter: blur(6px);
+  } */
+  /* .table-content{
+    display: block;
+  }
+  .terms-sidebar:active .team-item-lists{
+    right: 0;
+    display: block;
+    width: 100%;
+    height: 500px;
+  } */
+  .team-item-lists a{
+    font-size: 18px;
+  }
+  .team-item-lists {
+    padding: 20px 20px;
+    gap: 15px;
+}
+  .terms-content {
+    overflow-y: scroll;
+    padding: 20px 20px;
+    height: 800px;
+    border-top: 1px solid var(--black-color);
+}
+.terms-content-item {
+  margin: 20px 0;
+}
+.terms-content-item h4{
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-family: var(--title-font);
+  letter-spacing: 5px;
+}
+}
+@media screen and (max-width: 500px) {
+  .terms {
+    padding: 150px 0 80px 0;
+}
+}
 /* ================== faq =============== */
 .faqs-section{
   position: relative;
-  padding: 250px 0 300px 0;
+  padding: 250px 0 200px 0;
 }
 .faq-wrapper {
   display: grid;
@@ -246,6 +310,7 @@ gap: 10px;
   font-size: 50px;
   line-height: 136%;
   margin-bottom: 30px;
+  letter-spacing: 5px;
   font-weight: 700;
   font-family: var(--title-font);
 }
@@ -279,19 +344,53 @@ img.faq-image {
   cursor: pointer;
   font-size: 20px;
   font-weight: 700;
+  padding: 20px 0;
 }
 
 .row-content-text {
   color: #b0b0b0 !important;
 }
-
+.styles_row-title__1YiiY {
+  padding: 0 !important;
+}
 @media screen and (max-width: 992px) {
   .faq-wrapper {
     display: grid;
     grid-template-columns: 100%;
-    gap: 50px;
+    gap: 20px;
   }
   .left-faq {
     text-align: center;
+}
+.faqs-section {
+  position: relative;
+  padding: 150px 0 150px 0;
+}
+.left-faq h4 {
+  font-size: 50px;
+  line-height: 136%;
+  margin-bottom: 0px;
+  font-weight: 700;
+  font-family: var(--title-font);
+}
+}
+@media screen and (max-width: 500px) {
+  .faqs-section {
+    padding: 150px 0 50px 0;
+  }
+  .left-faq h4 {
+  font-size: 40px;
+  line-height: 60px;
+  margin-bottom: 0px;
+  font-weight: 700;
+  font-family: var(--title-font);
+}
+.row-title-text {
+  padding: 10px 0;
+  font-size: 18px;
+  line-height: 25px;
+}
+.faq-row {
+  padding: 0 10px !important;
 }
 }
