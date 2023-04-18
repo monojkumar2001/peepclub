@@ -1,0 +1,78 @@
+/*------------------  Intro belts  --------------------*/
+@media only screen and (max-width:1400px) {
+    .roadmap-title h1 {
+        font-size: 60px;
+    }
+}
+@media only screen and (max-width:1240px) {
+    .intro {
+        padding: 150px 0 150px 0;
+    }
+    .hero-title{
+      font-size: 52px;
+
+      line-height: 150px;
+      }
+      .roadmap-title h1 {
+        font-size: 45px;
+    }
+}
+@media only screen and (max-width:992px) {
+    .intro {
+        padding: 150px 0 150px 0;
+    }
+    .hero-title{
+      font-size: 52px;
+
+      line-height: 150px;
+      }
+      .roadmap-header {
+        grid-template-columns: 100%;
+        padding: 0 0px;
+    }
+    .roadmap-title {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .roadmap-description {
+        border-left: none;
+        border-top: 1px solid var(--black-color);
+        margin-left: 0px;
+        padding: 20px 0;
+        justify-content: center;
+    }
+}
+@media only screen and (max-width:768px) {
+    .intro {
+        padding: 150px 0 80px 0;
+    }
+    .hero-title{
+        font-size: 40px;
+        line-height: 100px;
+        }
+        .intro-img-1 {
+            width: 140px;
+            height: 140px;
+            border-radius: 20px;
+        }
+        .intro-img-2 {
+            width: 200px;
+            height: 140px;
+            border-radius: 30px;
+        }
+}
+@media only screen and (max-width:500px) {
+
+        .roadmap-cards {
+            width: 100%;
+            padding: 0 10px;
+            margin-top: 50px;
+        }
+        .roadmap-title h1 {
+            font-size: 40px;
+        }
+        .roadmap-title img{
+            width: 20px;
+        }
+}

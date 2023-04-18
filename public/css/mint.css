@@ -1,0 +1,128 @@
+@import url('./global.css');
+
+.mint{
+    position: relative;
+    padding: 200px 0 100px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mint-wrapper{
+    width: 80%;
+    margin: auto;
+    border: 1px solid var(--black-color);
+}
+.mint-nft-img img{
+    width: 100%;
+}
+.mint-nft-item{
+    /* display: grid;
+    grid-template-columns: 1fr 1fr;  */
+    gap: 40px;
+    padding: 50px 80px;
+}
+.nft-content h4{
+    font-size: 30px;
+    font-weight: 600;
+    font-family: var(--title-font);
+    letter-spacing: 5px;
+    line-height: 45px;
+    color: var(--black-color);
+    margin-bottom: 40px;
+}
+.nft-content .card-details-list{
+    color: var(--black-color);
+}
+.mint-price-item{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--black-color);
+    border-top: 1px solid var(--black-color);
+  
+}
+.mint-count{
+    margin-left: 80px;
+}
+.mint-count p{
+    font-size: 25px;
+    color: var(--black-color);
+    font-weight: 600;
+    font-family: var(--secondary-font);
+}
+.mint-price{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    height: 100%;
+}
+.mint-value{
+    width: 100%;
+    height: 100%;
+}
+.mint-value p{
+    background-color: var(--black-color);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    padding: 20px 0;
+}
+.mini-nft-cont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.mini-nft-cont button{
+    width: 40px;
+    height: 40px;
+    background-color: var(--black-color);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    color: var(--white-color);
+    border: none;
+    outline: none;
+}
+.mini-nft-cont p{
+    font-size: 25px;
+    color: var(--black-color);
+}
+.mint-total-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 30px;
+    gap: 40px;
+}
+.mint-total-dis h3{
+    font-size: 35px;
+    font-family: var(--title-font);
+    font-weight: 700;
+    letter-spacing: 5px;
+    color: var(--black-color);
+}
+.mint-total-value p{
+    font-size: 25px;
+    color: var(--black-color);
+    font-weight: 600;
+}
+.mint-btn button{
+    width: 200px;
+    border: none;
+    outline: none;
+    background-color: var(--main-color);
+    padding: 10px 40px;
+    color: var(--white-color);
+    font-size: 23px;
+    font-weight: 600;
+    border-radius: 50px;
+}
