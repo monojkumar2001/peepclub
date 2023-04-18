@@ -43,13 +43,13 @@ function Header() {
               </li>
               <li className="nav-list" >
                 <HashLink to="/faq">
-                  <a href="" className="nav-link" onClick={_toggleSidebar}>
+                  <a href="/faq" className="nav-link" onClick={_toggleSidebar}>
                    FAQ
                   </a>
                 </HashLink>
               </li>
        <li>
-       <Link to='/' onClick={_toggleSidebar}>
+       <Link to='' onClick={_toggleSidebar}>
               <a href="" className="custom-btn connect-wallet-btn">
                   <span>Connect Wallet</span>
                   <img src="./images/arrow-right.svg" alt="" />

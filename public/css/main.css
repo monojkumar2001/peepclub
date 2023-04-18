@@ -244,6 +244,16 @@ gap: 10px;
   font-size: 20px;
   font-weight: 600;
 }
+.terms-content-item {
+  margin: 20px 0;
+}
+.terms-content-item h4{
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-family: var(--title-font);
+  letter-spacing: 5px;
+}
 @media screen and (max-width: 992px) {
   /* .team-item-lists{
     display: none;
@@ -280,15 +290,9 @@ gap: 10px;
     height: 800px;
     border-top: 1px solid var(--black-color);
 }
-.terms-content-item {
-  margin: 20px 0;
-}
+
 .terms-content-item h4{
-  font-size: 24px;
-  font-weight: 700;
-  margin-bottom: 15px;
-  font-family: var(--title-font);
-  letter-spacing: 5px;
+  font-size: 20px;
 }
 }
 @media screen and (max-width: 500px) {
