@@ -308,17 +308,20 @@ gap: 10px;
 .faq-wrapper {
   display: grid;
   grid-template-columns: 30% 65%;
+  gap: 20px;
 }
 
 .left-faq h4 {
-  font-size: 50px;
+  font-size: 45px;
   line-height: 136%;
   margin-bottom: 30px;
   letter-spacing: 5px;
   font-weight: 700;
   font-family: var(--title-font);
 }
-
+.left-faq h4 span img{
+  width: 60px;
+}
 a.faq-link {
   font-weight: 600;
   font-size: 20px;
@@ -329,9 +332,7 @@ a.faq-link {
 img.faq-image {
   margin-top: 65px;
 }
-.faq-body{
-  background-color:#F6F5F2 !important;
-}
+
 .faq-row {
   border: 1px solid #ddd;
   margin-bottom: 30px;
@@ -356,6 +357,9 @@ img.faq-image {
 }
 .styles_row-title__1YiiY {
   padding: 0 !important;
+}
+.styles_faq-row-wrapper__3vA1D {
+  background-color: var(--faq-bg-color, none) !important;
 }
 @media screen and (max-width: 992px) {
   .faq-wrapper {
